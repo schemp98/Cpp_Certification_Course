@@ -14,7 +14,6 @@ using namespace std;
 
 int main()
 {
-
    cout << "\"ax = ax + bx\"  should be  \"ax += bx\"\n"
            "\"ax = ax / -bx\" should be  \"ax /= -bx\"\n"
            "\"ax = bx / ax\"  should be  \"ax = bx / ax\"\n"  // Already in most appropriate form
