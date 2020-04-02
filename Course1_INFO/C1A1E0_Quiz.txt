@@ -1,0 +1,14 @@
+Shaun Chemplavil U08713628
+schemp98@hotmail.com
+C/C++ Programming I : Fundamental Programming Concepts
+146359 Raymond L. Mitchell, Jr., M.S.
+04/01/2020
+C1A1E0_Quiz.txt
+Answers to Quiz 1
+
+1. D
+2. E
+3. B
+4. B
+5. D
+6. A
