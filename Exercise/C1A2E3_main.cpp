@@ -15,32 +15,32 @@
 #include <iostream>
 using namespace std;
 
-int main(void)
-{
-   // Declare User Input (u) and Display Character (disp_char)
-   int u, disp_char;
+// Set Character to illustrate the "diagonal" of the triangle
+const char DIAGONAL_CHAR = '\\';
+// Declare and set Most Significant Bit (MSB);
+const int MSB = 10;
 
-   // Declare and set Most Significant Bit (msb);
-   int msb = 10;
-   // Set Character to illustrate the "diagonal" of the triangle
-   const char DIAGONAL_CHAR = '\\';
+int main()
+{
+   // Declare User Input (input) and Display Character (disp_char)
+   int input, disp_char;
 
    // Request and Store User Input
    cout << "Enter any positive integer value: ";
-   cin >> u;
+   cin >> input;
 
    // Set the first character to be displayed
-   disp_char = u;
+   disp_char = input;
 
    // Display triangle
    // loop that controls current row display
-   for (int row_idx = 0; row_idx < u; ++row_idx)
+   for (int row_idx = 0; row_idx < input; ++row_idx)
    {
       // loop that controls current column display
       for (int col_idx = 0; col_idx < row_idx; ++col_idx)
       {
-         // Print Current 'disp_char', increment, and enforce msb
-         cout << disp_char++ % msb;
+         // Print Current 'disp_char', increment, and enforce MSB
+         cout << disp_char++ % MSB;
       }
       // Add DIAGONAL_CHAR
       cout << DIAGONAL_CHAR << '\n';

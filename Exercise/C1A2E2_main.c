@@ -16,31 +16,30 @@
 
 // Set Character to illustrate the "diagonal" of the triangle
 #define DIAGONAL_CHAR '\\'
+//  Set the Most Significant Bit value
+#define MSB 10
 
 int main(void)
 {
    // Declare User Input (u) and Display Character (disp_char)
-   int u, disp_char;
-
-   // Declare and set Most Significant Bit (msb);
-   int msb = 10;
+   int input, disp_char;
 
    // Request and Store User Input
    printf("%s", "Enter any positive integer value: ");
-   scanf("%d", &u);
+   scanf("%d", &input);
 
    // Set the first character to be displayed
-   disp_char = u;
+   disp_char = input;
 
    // Display triangle
    // loop that controls current row display
-   for (int row_idx = 0; row_idx < u; ++row_idx)
+   for (int row_idx = 0; row_idx < input; ++row_idx)
    {
       // loop that controls current column display
       for (int col_idx = 0; col_idx < row_idx; ++col_idx)
       {
          // Print Current 'disp_char', increment, and enforce msb
-         printf("%d", disp_char++ % msb);
+         printf("%d", disp_char++ % MSB);
       }
       // Add DIAGONAL_CHAR
       printf("%c%c", DIAGONAL_CHAR, '\n');
