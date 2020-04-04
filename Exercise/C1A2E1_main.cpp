@@ -22,11 +22,10 @@
 #include <iostream>
 using namespace std;
 
-// Set variable to convert from upper to lowercase
-const int TO_LOWER = 'a' - 'A';
-
 int main()
 {
+   // Set variable to convert from upper to lowercase
+   const int TO_LOWER = 'a' - 'A';
    char ch;
 
    cout << "Enter any character: ";
