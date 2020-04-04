@@ -1,6 +1,6 @@
 //
 // Shaun Chemplavil U08713628
-// schemp98@hotmail.com
+// shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
 // 04 / 04 / 2020
