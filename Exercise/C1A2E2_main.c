@@ -8,7 +8,7 @@
 // Win10
 // Visual C++ 19.0
 //
-// This file will take user integer input (u), and display a triangle of
+// This file will take user integer input (input), and display a triangle of
 //  characters on the screen
 //
 
@@ -21,7 +21,7 @@
 
 int main(void)
 {
-   // Declare User Input (u) and Display Character (disp_char)
+   // Declare User Input (input) and Display Character (disp_char)
    int input, disp_char;
 
    // Request and Store User Input
