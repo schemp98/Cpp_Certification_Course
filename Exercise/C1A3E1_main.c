@@ -24,17 +24,19 @@ int main(void)
    scanf("%d", &input);
 
    // Display Column Headers
-   printf("nbr    cubic sum\n");
-   printf("----------------\n");
+   printf(
+      "nbr   cubic sum\n"
+      "---------------\n");
 
    // loop that controls current row display
-   for (int nbr = 0; nbr <= input; ++nbr)
+   for (short nbr = 0; nbr <= input; ++nbr)
    {
       // Add cube of current number to cubic sum
+      // Type conversion is necessary due to multiplication
       cubic_sum += (short)(nbr * nbr * nbr);
 
-      // Print Current 'disp_char', increment, and enforce msb
-      printf("  %3hi %10hi\n", nbr, cubic_sum);
+      // Print table contents for current row
+      printf("%3hi %10hi\n", nbr, cubic_sum);
    }
    return 0;
 }
