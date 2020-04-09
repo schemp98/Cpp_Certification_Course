@@ -28,20 +28,18 @@ int main()
    cout << "Enter any decimal integer value: ";
    cin >> inValue;
 
-   // Display Opening Quotation Marks
-   cout << "\"";
+   // Display Opening Phrase
+   cout << "\"" << inValue << "\" in reverse is  \"";
 
    // Track Original Sign of input
    isNeg = inValue < 0;
 
-   // Force to be positive AND Display Negative sign
+   // Force to be positive
    if (isNeg)
    {
-      cout << "-";
       inValue = -inValue;
    }
 
-   cout << inValue << "\" in reverse is  \"";
 
    do
    {
