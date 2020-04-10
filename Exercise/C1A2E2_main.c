@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 04 / 2020
+// 04 / 10 / 2020
 // C1A2E2_main.c
 // Win10
 // Visual C++ 19.0
@@ -16,8 +16,8 @@
 
 // Set Character to illustrate the "diagonal" of the triangle
 #define DIAGONAL_CHAR '\\'
-//  Set the Most Significant Bit value
-#define MSB 10
+//  Set the RADIX value
+#define RADIX 10
 
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
    int input, disp_char;
 
    // Request and Store User Input
-   printf("%s", "Enter any positive integer value: ");
+   printf("Enter any positive integer value: ");
    scanf("%d", &input);
 
    // Set the first character to be displayed
@@ -38,11 +38,11 @@ int main(void)
       // loop that controls current column display
       for (int col_idx = 0; col_idx < row_idx; ++col_idx)
       {
-         // Print Current 'disp_char', increment, and enforce msb
-         printf("%d", disp_char++ % MSB);
+         // Print Current 'disp_char', increment, and enforce RADIX
+         printf("%d", disp_char++ % RADIX);
       }
       // Add DIAGONAL_CHAR
-      printf("%c%c", DIAGONAL_CHAR, '\n');
+      printf("%c\n", DIAGONAL_CHAR);
    }
    return 0;
 }

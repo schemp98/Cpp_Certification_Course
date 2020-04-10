@@ -20,7 +20,7 @@ const int RADIX = 10;
 int main()
 {
    // Declare User Input (inValue), most significant digit (msd)
-   int inValue, msd, dividend, divisor = 1;
+   int inValue, dividend, divisor = 1;
 
    // Request and Store User Input
    cout << "Enter any decimal integer value: ";
@@ -43,14 +43,14 @@ int main()
    {
       divisor *= RADIX;
       dividend /= RADIX;
-   } while (dividend > 9);
+   } while (dividend >= RADIX);
 
    dividend = inValue;
 
    do
    {
       // Determine the most significant digit
-      msd = dividend / divisor;
+      int msd = dividend / divisor;
 
       // Write out most significant digit in words
       switch (msd)
