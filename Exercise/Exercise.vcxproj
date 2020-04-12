@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A2E3_main.cpp" />
+    <ClCompile Include="C1A4E1_ComputeMaximum.c" />
+    <ClCompile Include="C1A4E1_ComputeMinimum.c" />
+    <ClCompile Include="C1A4E1_main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C1A4E1_Functions.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
