@@ -24,7 +24,7 @@
     <ClCompile Include="C1A4E1_main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C1A4E1_Functions.h" />
+    <ClInclude Include="C1A4E1.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
