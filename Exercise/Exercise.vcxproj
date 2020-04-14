@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A4E1_ComputeMaximum.c" />
-    <ClCompile Include="C1A4E1_ComputeMinimum.c" />
-    <ClCompile Include="C1A4E1_main.c" />
+    <ClInclude Include="C1A4E2.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C1A4E1.h" />
+    <ClCompile Include="C1A4E2_main.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-0.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-1.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-2.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
