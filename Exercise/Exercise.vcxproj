@@ -18,11 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C1A5\C1A5E2_ComputeMaximum.cpp" />
-    <ClCompile Include="C1A5\C1A5E2_ComputeMinimum.cpp" />
-    <ClCompile Include="C1A5\C1A5E2_main.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{DCFB340F-51A7-46F9-849E-7BC736B892CB}</ProjectGuid>
