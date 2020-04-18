@@ -19,10 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A4E4_main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C1A4E4_MaxOf.h" />
+    <ClCompile Include="C1A4E3_main.cpp" />
+    <ClCompile Include="C1A4E3_PrintLines.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

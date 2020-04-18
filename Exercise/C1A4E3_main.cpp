@@ -4,7 +4,7 @@
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
 // 04 / 17 / 2020
-// C1A4E2_main.cpp
+// C1A4E3_main.cpp
 // Win10
 // Visual C++ 19.0
 //
@@ -14,10 +14,7 @@
 #include <iostream>
 using namespace std;
 
-void PrintLines(int charsToDisplay, int numberOfCharacters, int numberOfLines);
-void PrintLines(int charsToDisplay, int numberOfCharacters);
-void PrintLines(int charsToDisplay);
-void PrintLines(void);
+void PrintLines(int charToDisp = int('Z'), int numChars = 1, int numLines = 1);
 
 // Define the number of times we repeat the main body
 const int REPEAT = 2;

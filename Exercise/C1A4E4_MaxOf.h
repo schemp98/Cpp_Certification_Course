@@ -18,7 +18,7 @@
 // Macro that Returns Maximum of 2 Inputs
 #define mMaxOf2(in1, in2) ((in1) > (in2) ? (in1) : (in2))
 // Macro that Returns Maximum of 3 Inputs
-#define mMaxOf3(in1, in2, in3) mMaxOf2(mMaxOf2((in1), (in2)), (in3))
+#define mMaxOf3(in1, in2, in3) (mMaxOf2(mMaxOf2((in1), (in2)), (in3)))
 
 // Inline function that Returns Maximum of 2 Inputs
 inline long double fMaxOf2(long double in1, long double in2)
