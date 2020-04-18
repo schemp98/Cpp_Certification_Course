@@ -19,8 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A4E3_main.cpp" />
-    <ClCompile Include="C1A4E3_PrintLines.cpp" />
+    <ClCompile Include="C1A5\C1A5E2_ComputeMaximum.cpp" />
+    <ClCompile Include="C1A5\C1A5E2_ComputeMinimum.cpp" />
+    <ClCompile Include="C1A5\C1A5E2_main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

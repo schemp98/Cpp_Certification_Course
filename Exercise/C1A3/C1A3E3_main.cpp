@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L.Mitchell, Jr., M.S.
-// 04 / 09 / 2020
+// 04 / 18 / 2020
 // C1A3E3_main.cpp
 // Win10
 // Visual C++ 19.0
@@ -14,7 +14,7 @@
 #include <iostream>
 using namespace std;
 
-// Declare and set RADIX;
+// Declare and set RADIX (base number of decimal system)
 const int RADIX = 10;
 
 int main()
