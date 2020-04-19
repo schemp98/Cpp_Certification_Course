@@ -3,13 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 17 / 2020
+// 04 / 19 / 2020
 // C1A4E3_main.cpp
 // Win10
 // Visual C++ 19.0
 //
-// This file will take user inputs varies calls to an overloaded function
-//
+// This file will take user inputs varies calls to a function with
+//  default parameters in prototype function
 
 #include <iostream>
 using namespace std;

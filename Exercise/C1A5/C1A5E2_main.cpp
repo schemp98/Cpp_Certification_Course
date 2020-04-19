@@ -3,13 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 18 / 2020
+// 04 / 19 / 2020
 // C1A5E2_main.cpp
 // Win10
 // Visual C++ 19.0
 //
-// This file will take a positive user integer input (input),
-//  and display a table of the cubic sum to that number
+// This file will take two decimal numbers and display their
+//  maximum and minimum values by accessing their memory addresses
 //
 
 #include <iostream>
