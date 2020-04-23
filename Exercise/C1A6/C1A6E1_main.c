@@ -14,10 +14,8 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <string.h>
 
-#define LINE_SIZE 128
-#define LENGTH  (LINE_SIZE + 1)
+#define LENGTH  129
 
 size_t MyStrlen(const char *s1);
 
@@ -33,8 +31,8 @@ int main(void)
    input[strcspn(input, "\n")] = '\0';
 
    // display results
-   printf("strlen(\"%s\") returned %d\n", input, strlen(input));
-   printf("MyStrlen(\"%s\") returned %d\n", input, MyStrlen(input));
+   printf("strlen(\"%s\") returned %d\n", input, (int)strlen(input));
+   printf("MyStrlen(\"%s\") returned %d\n", input, (int)MyStrlen(input));
 
    return 0;
 }

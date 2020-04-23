@@ -11,7 +11,7 @@
 // This function calculates the length of a string
 //
 
-#include <stdio.h>
+#include <stddef.h>
 
 size_t MyStrlen(const char *s1)
 {
