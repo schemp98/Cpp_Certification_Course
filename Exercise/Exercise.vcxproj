@@ -18,6 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C1A6\C1A6E1_main.c" />
+    <ClCompile Include="C1A6\C1A6E1_MyStrlen.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{DCFB340F-51A7-46F9-849E-7BC736B892CB}</ProjectGuid>
