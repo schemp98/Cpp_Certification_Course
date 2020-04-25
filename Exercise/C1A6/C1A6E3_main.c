@@ -34,12 +34,10 @@ int main(void)
    // remove newline character from string
    source[strcspn(source, "\n")] = '\0';
 
-   GetSubstring(source, start, count, result);
-
    // display results
    printf(
       "\"%s\", %d, %d, extracts \"%s\"\n",
-      source, start, count, result);
+      source, start, count, GetSubstring(source, start, count, result));
 
    return 0;
 }

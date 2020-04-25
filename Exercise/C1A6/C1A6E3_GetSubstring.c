@@ -29,10 +29,10 @@ char *GetSubstring(const char source[], int start, int count, char result[])
    while ((count-- > 0) && (*source != '\0'))
    {
       *result++ = *source++;
-   };
+   }
 
    // Append Null Character to result
    *result++ = NULL_CHAR;
 
-   return (result_copy);
+   return(result_copy);
 }
