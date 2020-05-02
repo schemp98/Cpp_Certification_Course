@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A7\C1A7E1_DetermineElapsedTime.cpp" />
-    <ClCompile Include="C1A7\C1A7E1_main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C1A7\C1A7E1_MyTime.h" />
+    <ClCompile Include="C1A8\C1A8E2_main.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

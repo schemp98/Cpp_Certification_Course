@@ -3,12 +3,12 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 25 / 2020
+// 05 / 01 / 2020
 // C1A7E1_DetermineElapsedTime.cpp
 // Win10
 // Visual C++ 19.0
 //
-// This file calculates the elasped time between two MyTime variables
+// This function calculates the elasped time between two MyTime variables
 //
 
 #include "C1A7E1_MyTime.h"
