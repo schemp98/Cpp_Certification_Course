@@ -3,12 +3,14 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 05 / 01 / 2020
+// 05 / 08 / 2020
 // C1A8E1_main.cpp
 // Win10
 // Visual C++ 19.0
 //
-// This file will take user inputs varies calls to an overloaded function
+// This program asks the user to enter account information to populate a
+//  SavingsAccount class variable, and then displays the dollar amount
+//  penalty to close the account
 //
 
 #include <iostream>

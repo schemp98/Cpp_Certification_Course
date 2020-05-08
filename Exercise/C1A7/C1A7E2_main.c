@@ -3,13 +3,14 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 26 / 2020
+// 05 / 08 / 2020
 // C1A7E2_main.c
 // Win10
 // Visual C++ 19.0
 //
-// This program prompts the user to enter 2 strings and compare them
-// using strcmp and MyStrcmp
+// This program prompts the user to enter nutritional information for
+// LUNCH_QTY number of food items contained in a 'lunch' Food structure array
+// 2 items within this structure array have been initialized
 //
 
 #include <stdio.h>

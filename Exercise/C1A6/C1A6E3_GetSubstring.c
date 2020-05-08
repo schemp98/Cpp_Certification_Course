@@ -3,13 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 04 / 24 / 2020
+// 05 / 08 / 2020
 // C1A6E3_GetSubstring.c
 // Win10
 // Visual C++ 19.0
 //
-// This function creates a new string of character by computing them from
-// an existing string
+// This function extracts a string of characters via a user defined start index
+//  and character count
 //
 
 #define NULL_CHAR '\0'

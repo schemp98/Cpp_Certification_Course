@@ -3,13 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming I : Fundamental Programming Concepts
 // 146359 Raymond L. Mitchell Jr.
-// 05 / 02 / 2020
+// 05 / 08 / 2020
 // C1A8E2_main.c
 // Win10
 // Visual C++ 19.0
 //
 // This program will run at the command line with two space separated arguments
-//  first argument specifies a text file name, and the second specified the
+//  first argument specifies a text file name, and the second specifies the
 //  number of lines in a group
 //
 
