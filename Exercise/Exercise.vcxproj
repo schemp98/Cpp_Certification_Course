@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C1A6\C1A6E3_GetSubstring.c" />
-    <ClCompile Include="C1A6\C1A6E3_main.c" />
+    <ClCompile Include="C2A1\C2A1E2_main.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
