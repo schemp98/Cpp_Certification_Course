@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A1\C2A1E2_main.c" />
+    <ClCompile Include="C2A1\C2A1E3_FindFirstInt.c" />
+    <ClCompile Include="C2A1\C2A1E3_main-Driver.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

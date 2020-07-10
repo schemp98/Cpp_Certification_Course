@@ -15,9 +15,13 @@
 
 int main(int argc, char *argv[])
 {
-   for (int i = 0; i < argc; i++)
+   // Display the number of input arguments
+   printf("%d\n", argc);
+
+   // Print each input argument
+   for (int arg_num = 0; arg_num < argc; arg_num++)
    {
-      printf("%d is %s\n", i, argv[i]);
+      printf("%s\n", argv[arg_num]);
    }
 
    return 0;
