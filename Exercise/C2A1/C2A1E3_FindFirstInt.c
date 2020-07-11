@@ -20,7 +20,7 @@ int *FindFirstInt(const int *ptr, size_t count, int value)
    {
       //  When desired value encountered, return pointer
       if (ptr[index] == value)
-         return((int*)ptr + index);
+         return((int *)&ptr[index]);
    }
 
    // If value is not found return NULL
