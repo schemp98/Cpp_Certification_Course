@@ -19,8 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A1\C2A1E6_AppendFile.cpp" />
-    <ClCompile Include="C2A1\C2A1E6_main-Driver.cpp" />
+    <ClCompile Include="C2A1\C2A1E7_Employee.cpp" />
+    <ClCompile Include="C2A1\C2A1E7_main-Driver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C2A1\C2A1E7_Employee.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

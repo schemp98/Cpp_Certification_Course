@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 11 / 2020
+// 07 / 12 / 2020
 // C2A1E6_AppendFile.cpp
 // Win10
 // Visual C++ 19.0
@@ -26,31 +26,39 @@ static void ErrorAndQuit(const char *myString)
 
 int AppendFile(const char *inFile, const char *outFile)
 {
-   // Buffer Variable to hold file contents
-   char buf[BUFSIZE];
+   // Keep track of the bytes read from binary files
+   streamsize bytesRead;
 
    // open inFile in "read" and binary mode
    ifstream source(inFile, ios_base::binary);
    if (!source.is_open())
       ErrorAndQuit(inFile);
 
-   // open outFile file in "append" and binary mode
+   // open outFile in "append" and binary mode
    ofstream destination(outFile, ios_base::app | ios_base::binary);
    if (!destination.is_open())
+   {
+      // close all open files because an error has occurred
+      source.close();
       ErrorAndQuit(outFile);
+   }
 
-   // Read each line from source into buffer
-   while (source.read(buf, sizeof(buf)) && !source.eof())
-      // write buffer into destination file
-      if (!(destination.write(buf, sizeof(buf))))
-         ErrorAndQuit(outFile);
-   destination.put('\n');
+   do
+   {
+      // Buffer to hold file contents
+      char buf[BUFSIZE];
+
+      // Read block of data from source into buffer
+      source.read(buf, sizeof(buf));
+
+      if (bytesRead = source.gcount())
+         // write buffer into destination file
+         destination.write(buf, bytesRead);
+   } while (bytesRead == BUFSIZE);
 
    // Close open files
-   if (source.is_open())
-      source.close();
-   if (destination.is_open())
-      destination.close();
+   source.close();
+   destination.close();
 
    return(0);
 }

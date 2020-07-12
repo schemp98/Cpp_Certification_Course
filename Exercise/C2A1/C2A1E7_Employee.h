@@ -16,7 +16,7 @@
 
 class Employee
 {
-   char * name;
+   char *name;
    int    age;
    float raise;
    double salary;
@@ -25,7 +25,7 @@ public:
 
    // Definition of this prototype in C2A1E7_Employee.cpp
    // used to set member variable name
-   void Set(const char * input);
+   void Set(const char *input);
 
    // Set Member Variable raise
    void Set(int input = 25)
@@ -40,40 +40,42 @@ public:
    }
 
    // Set Member Variable salary
-   void Set(const double * input)
+   void Set(const double *input)
    {
       salary = *input;
    }
 
+   // Constant Member Functions //
+
    // Get Member Variable name
-   const char * Get(char ** input)
+   char *Get(char **input) const
    {
-      name = *(input);
+      *input = name;
 
       return name;
    }
 
    // Get Member Variable age
-   const int Get(int &input)
+   int Get(int &input) const
    {
-      age = input;
+      input = age;
 
       return age;
    }
    // Get Member Variable raise
-   const float & Get(float &input)
+   float &Get(float &input)
    {
-      raise = input;
+      input = raise;
 
       return raise;
    }
 
-   // Definition of this member function below
-   const inline double Get(double * input);
+   // Definition of this member function prototype below
+   inline double Get(double *input) const;
 };
 
 // Member function to get salary information
-const inline double Employee::Get(double * input)
+double Employee::Get(double *input) const
 {
    *input = salary;
    return salary;
