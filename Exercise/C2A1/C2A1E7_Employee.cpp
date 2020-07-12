@@ -1,0 +1,21 @@
+//
+// Shaun Chemplavil U08713628
+// shaun.chemplavil@gmail.com
+// C / C++ Programming II : Dynamic Memory and File I / O Concepts
+// 149123 Raymond L.Mitchell, Jr., M.S.
+// 07 / 11 / 2020
+// C2A1E7_Employee.cpp
+// Win10
+// Visual C++ 19.0
+//
+//  File Contains an overloaded definition of Employee:Set member function
+//
+
+#include "C2A1E7_Employee.h";
+
+void Employee::Set(const char * input)
+{
+   // dynamically allocate the amount of memory needed to hold input string
+   // SCC - not sure how....
+   name = (char *)input;
+}

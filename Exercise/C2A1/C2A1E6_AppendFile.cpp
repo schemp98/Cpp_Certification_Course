@@ -18,39 +18,39 @@ using namespace std;
 
 const int BUFSIZE = 256;
 
-void ErrorAndQuit(const char *myString)
+static void ErrorAndQuit(const char *myString)
 {
    cerr << "\"" << myString << "\" :File access error!\n";
-   exit(EXIT_FAILURE);
+   exit(-1);
 }
 
 int AppendFile(const char *inFile, const char *outFile)
 {
+   // Buffer Variable to hold file contents
    char buf[BUFSIZE];
 
-   // open SOURCE_FILE in "read" mode
-   ifstream source(inFile, ios_base::in || ios_base::binary);
+   // open inFile in "read" and binary mode
+   ifstream source(inFile, ios_base::binary);
    if (!source.is_open())
       ErrorAndQuit(inFile);
 
-   // open destination file in "append" mode
-   ofstream destination(outFile, ios_base::app);
+   // open outFile file in "append" and binary mode
+   ofstream destination(outFile, ios_base::app | ios_base::binary);
    if (!destination.is_open())
       ErrorAndQuit(outFile);
 
-   //// Read each line from source
-   while (source.getline(buf, sizeof(buf)) && !source.eof())
-   {
-      // Write line into destination file
-      destination.write(&buf[0], sizeof(buf));
-
-      // Add new line character;
-      destination << '\n';
-   }
+   // Read each line from source into buffer
+   while (source.read(buf, sizeof(buf)) && !source.eof())
+      // write buffer into destination file
+      if (!(destination.write(buf, sizeof(buf))))
+         ErrorAndQuit(outFile);
+   destination.put('\n');
 
    // Close open files
-   source.close();
-   destination.close();
+   if (source.is_open())
+      source.close();
+   if (destination.is_open())
+      destination.close();
 
    return(0);
 }
