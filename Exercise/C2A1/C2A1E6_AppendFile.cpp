@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 12 / 2020
+// 07 / 13 / 2020
 // C2A1E6_AppendFile.cpp
 // Win10
 // Visual C++ 19.0

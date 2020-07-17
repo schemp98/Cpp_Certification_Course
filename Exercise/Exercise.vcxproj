@@ -19,11 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A1\C2A1E7_Employee.cpp" />
-    <ClCompile Include="C2A1\C2A1E7_main-Driver.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C2A1\C2A1E7_Employee.h" />
+    <ClCompile Include="C2A2\C2A2E2_CountIntBitsF.cpp" />
+    <ClCompile Include="C2A2\C2A2E2_main-Driver.cpp" />
+    <ClCompile Include="C2A2\C2A2E2_Rotate.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
