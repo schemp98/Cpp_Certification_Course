@@ -3,12 +3,14 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L. Mitchell, Jr., M.S.
-// 07 / 12 / 2020
+// 07 / 17 / 2020
 // C2A1E5_ResizeAlloc.c
 // Win10
 // Visual C++ 19.0
 //
-// File containing ResizeAlloc function
+// File containing ResizeAlloc function, which  dynamically allocates memory
+// containing newSize bytes or resizes an existing block in pOld to
+// contain newSize bytes.
 //
 
 #include <stdlib.h>

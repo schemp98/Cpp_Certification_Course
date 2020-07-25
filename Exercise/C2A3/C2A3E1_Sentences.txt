@@ -1,0 +1,18 @@
+Shaun Chemplavil U08713628
+shaun.chemplavil@gmail.com
+C/C++ Programming II : Dynamic Memory and File I/O Concepts
+149123 Raymond L. Mitchell, Jr., M.S.
+07/25/2020
+C2A3E1_Sentences.txt
+Answers to Exercise testing Right-Left Rule and Decayed Right-Left Rule
+
+1) fish decays to a pointer to a double
+2) fish decays to a pointer to a double
+3) fish decays to a pointer to a double
+4) fish is an array of 57 doubles 
+5) fish is a double
+6) fish is an array of 57 doubles
+7) fish is an array of 57 doubles
+8) fish is a double
+9) fish is a double
+10) fish decays to a pointer to a double

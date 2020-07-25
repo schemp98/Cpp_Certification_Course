@@ -3,12 +3,15 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 10 / 2020
+// 07 / 17 / 2020
 // C2A1E3_FindFirstInt.c
 // Win10
 // Visual C++ 19.0
 //
-// File containing FindFirstInt function
+// File containing FindFirstInt function, which searches an integer array
+// pointer location (with size 'count') and returns the pointer to the
+// element which contains 'value', if 'value' is not found a NULL pointer
+// is returned
 //
 
 #include <stdio.h>

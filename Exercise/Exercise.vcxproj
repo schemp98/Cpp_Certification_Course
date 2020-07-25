@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A2\C2A2E2_CountIntBitsF.cpp" />
-    <ClCompile Include="C2A2\C2A2E2_main-Driver.cpp" />
-    <ClCompile Include="C2A2\C2A2E2_Rotate.cpp" />
+    <ClCompile Include="C2A3\C2A3E4_main-Driver.c" />
+    <ClCompile Include="C2A3\C2A3E4_OpenFile.c" />
+    <ClCompile Include="C2A3\C2A3E4_ParseStringFields.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

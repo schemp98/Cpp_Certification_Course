@@ -3,12 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 09 / 2020
+// 07 / 17 / 2020
 // C2A1E2_main.c
 // Win10
 // Visual C++ 19.0
 //
-// File containing Exercise 2 of Assignment 1
+// Main program that displays the number of command line arguments and the
+//  values of those command line arguments
 //
 
 #include <stdio.h>

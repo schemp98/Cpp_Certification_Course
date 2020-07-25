@@ -3,12 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 16 / 2020
+// 07 / 18 / 2020
 // C2A2E1_CountBitsM.h
 // Win10
 // Visual C++ 19.0
 //
-// Header File contains CountBitsM macro definition
+// Header File contains CountBitsM macro definition, which determines the
+// number of bits the datatype passed to it takes
 //
 
 #ifndef C2A2E1_COUNTBITSM_H

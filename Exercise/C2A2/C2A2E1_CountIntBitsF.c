@@ -3,12 +3,14 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 16 / 2020
+// 07 / 18 / 2020
 // C2A2E1_CountIntBitsF.c
 // Win10
 // Visual C++ 19.0
 //
-// File contains CountIntBitsF function
+// File contains CountIntBitsF function, which determines the number of bits
+// an int datatype variable takes
+//
 // ANSWER: No, datatype sizes are constant during the same implementation
 //
 
