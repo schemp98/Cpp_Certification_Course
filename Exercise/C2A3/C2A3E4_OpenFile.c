@@ -3,12 +3,13 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 07 / 25 / 2020
+// 07 / 27 / 2020
 // C2A3E4_OpenFile.c
 // Win10
 // Visual C++ 19.0
 //
-// File contains OpenFile function, which opens a pointer to an open file
+// File contains OpenFile function, which opens file located at the pointer
+// passed to it
 //
 
 #include <stdio.h>

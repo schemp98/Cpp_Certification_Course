@@ -19,9 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A3\C2A3E4_main-Driver.c" />
-    <ClCompile Include="C2A3\C2A3E4_OpenFile.c" />
-    <ClCompile Include="C2A3\C2A3E4_ParseStringFields.c" />
+    <ClCompile Include="C2A5\C2A5E1_main-Driver.c" />
+    <ClCompile Include="C2A5\C2A5E1_SwapObjects.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
