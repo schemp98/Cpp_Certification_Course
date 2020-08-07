@@ -19,8 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A5\C2A5E1_main-Driver.c" />
-    <ClCompile Include="C2A5\C2A5E1_SwapObjects.c" />
+    <ClCompile Include="C2A5\C2A5E4_DetectFloats.cpp" />
+    <ClCompile Include="C2A5\C2A5E4_main-Driver.cpp" />
+    <ClCompile Include="C2A5\C2A5E4_OpenFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C2A5\C2A5E4_StatusCode-Driver.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

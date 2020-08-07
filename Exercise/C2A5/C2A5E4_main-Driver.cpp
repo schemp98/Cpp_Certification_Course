@@ -43,32 +43,32 @@ int main()
       cout << setw(25) << buf;
       switch (DetectFloats(buf))
       {
-      case NO_MATCH:
-         if (stringNo >= 20 && stringNo <= 37)
-            cout << " <-- ERROR - THIS STRING IS VALID***";
-         cout << "\n";
-         break;
-      case TYPE_FLOAT:
-         cout << " <--- hexadecimal float";
-         if (stringNo < 20 || stringNo > 25)
-            cout << "  ***ERROR - WRONG RESULT***";
-         cout << "\n";
-         break;
-      case TYPE_DOUBLE:
-         cout << " <--- hexadecimal double";
-         if (stringNo < 26 || stringNo > 32)
-            cout << "  ***ERROR - WRONG RESULT***";
-         cout << "\n";
-         break;
-      case TYPE_LDOUBLE:
-         cout << " <--- hexadecimal long double";
-         if (stringNo < 33 || stringNo > 37)
-            cout << "  ***ERROR - WRONG RESULT***";
-         cout << "\n";
-         break;
-      default:
-         cout << "*****internal error*****\n";
-         break;
+         case NO_MATCH:
+            if (stringNo >= 20 && stringNo <= 37)
+               cout << " <-- ERROR - THIS STRING IS VALID***";
+            cout << "\n";
+            break;
+         case TYPE_FLOAT:
+            cout << " <--- hexadecimal float";
+            if (stringNo < 20 || stringNo > 25)
+               cout << "  ***ERROR - WRONG RESULT***";
+            cout << "\n";
+            break;
+         case TYPE_DOUBLE:
+            cout << " <--- hexadecimal double";
+            if (stringNo < 26 || stringNo > 32)
+               cout << "  ***ERROR - WRONG RESULT***";
+            cout << "\n";
+            break;
+         case TYPE_LDOUBLE:
+            cout << " <--- hexadecimal long double";
+            if (stringNo < 33 || stringNo > 37)
+               cout << "  ***ERROR - WRONG RESULT***";
+            cout << "\n";
+            break;
+         default:
+            cout << "*****internal error*****\n";
+            break;
       }
    }
 
