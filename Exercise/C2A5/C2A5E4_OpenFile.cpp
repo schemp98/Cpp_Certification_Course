@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 08 / 06 / 2020
+// 08 / 08 / 2020
 // C2A5E4_OpenFile.cpp
 // Win10
 // Visual C++ 19.0
@@ -16,7 +16,6 @@
 #include <fstream>
 
 using namespace std;
-
 
 void OpenFile(const char *fileName, ifstream &inFile)
 {

@@ -1,24 +1,2 @@
 ﻿  C2A5E4_DetectFloats.cpp
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(33,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(32,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(41,17): error C2664: 'int toupper(int)': cannot convert argument 1 from 'const char *' to 'int'
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(41,26): message : There is no context in which this conversion is possible
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\ctype.h(59,56): message : see declaration of 'toupper'
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(50,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(49,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(62,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(61,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(76,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(75,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(93,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(92,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(107,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(106,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(121,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(120,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(129,10): error C2450: switch expression of type 'const char *' is illegal
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(128,18): message : Integral expression required
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(134,18): error C2137: empty character constant
-C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A5\C2A5E4_DetectFloats.cpp(151,1): error C2143: syntax error: missing ';' before '}'
-  C2A5E4_main-Driver.cpp
-  Generating Code...
+  Exercise.vcxproj -> C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Debug\Exercise.exe
