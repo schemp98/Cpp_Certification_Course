@@ -48,7 +48,8 @@ List *CreateList(FILE *fp)
          // This is a new string
          if (ptr == NULL)
          {
-            size_t strSize = strlen(word) + (size_t)1;
+            // Need to take into account the null char
+            size_t strSize = strlen(word) + 1;
 
             // Allocate memory for new node
             if ((ptr = malloc(sizeof(List))) == NULL)

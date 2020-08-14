@@ -1,2 +1,5 @@
-﻿  C2A6E2_SortValues.cpp
+﻿  C2A6E4_List.c
+  C2A6E4_OpenFile.c
+  Generating Code...
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\C2A6\C2A6E4_List.c(33): warning C4706: assignment within conditional expression
   Exercise.vcxproj -> C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Debug\Exercise.exe

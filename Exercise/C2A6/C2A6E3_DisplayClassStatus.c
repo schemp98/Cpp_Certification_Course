@@ -3,7 +3,7 @@
 // shaun.chemplavil@gmail.com
 // C / C++ Programming II : Dynamic Memory and File I / O Concepts
 // 149123 Raymond L.Mitchell, Jr., M.S.
-// 08 / 13 / 2020
+// 08 / 14 / 2020
 // C2A6E3_DisplayClassStatus.c
 // Win10
 // Visual C++ 19.0
@@ -36,11 +36,13 @@ void DisplayClassStatus(const char *registrants[], size_t registrantCount,
    // Determine which registrants did not attend
    printf("Not present:\n");
    for (int name = 0; name < (int)registrantCount; name++)
+   {
       // check if registered name attended, if not found (NULL), display name
       if (bsearch(&registrants[name], attendees, attendeeCount, sizeof(attendees[0]), Compare) == NULL)
          printf("%s\n", registrants[name]);
+   }
 
-   // Determine which anttendees did not register
+   // Determine which attendees did not register
    printf("Not registered:\n");
    for (int name = 0; name < (int)attendeeCount; name++)
       // check if attendee name registered, if not found (NULL), display name

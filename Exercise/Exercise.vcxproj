@@ -19,9 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A6\C2A6E2_GetValues.cpp" />
-    <ClCompile Include="C2A6\C2A6E2_main-Driver.cpp" />
-    <ClCompile Include="C2A6\C2A6E2_SortValues.cpp" />
+    <ClCompile Include="C2A6\C2A6E4_List.c" />
+    <ClCompile Include="C2A6\C2A6E4_main-Driver.c" />
+    <ClCompile Include="C2A6\C2A6E4_OpenFile.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C2A6\C2A6E4_List-Driver.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
