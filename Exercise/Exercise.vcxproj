@@ -19,12 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A5\C2A5E4_DetectFloats.cpp" />
-    <ClCompile Include="C2A5\C2A5E4_main-Driver.cpp" />
-    <ClCompile Include="C2A5\C2A5E4_OpenFile.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C2A5\C2A5E4_StatusCode-Driver.h" />
+    <ClCompile Include="C2A6\C2A6E2_GetValues.cpp" />
+    <ClCompile Include="C2A6\C2A6E2_main-Driver.cpp" />
+    <ClCompile Include="C2A6\C2A6E2_SortValues.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
