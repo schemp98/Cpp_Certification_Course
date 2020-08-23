@@ -19,12 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C2A6\C2A6E4_List.c" />
-    <ClCompile Include="C2A6\C2A6E4_main-Driver.c" />
-    <ClCompile Include="C2A6\C2A6E4_OpenFile.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C2A6\C2A6E4_List-Driver.h" />
+    <ClCompile Include="C2A8\C2A8E2_main-Driver.c" />
+    <ClCompile Include="C2A8\C2A8E2_OpenFileBinary.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

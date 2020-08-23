@@ -38,7 +38,9 @@ void DisplayClassStatus(const char *registrants[], size_t registrantCount,
    for (int name = 0; name < (int)registrantCount; name++)
    {
       // check if registered name attended, if not found (NULL), display name
-      if (bsearch(&registrants[name], attendees, attendeeCount, sizeof(attendees[0]), Compare) == NULL)
+      if (bsearch(&registrants[name],
+         attendees, attendeeCount,
+         sizeof(attendees[0]), Compare) == NULL)
          printf("%s\n", registrants[name]);
    }
 
@@ -46,6 +48,8 @@ void DisplayClassStatus(const char *registrants[], size_t registrantCount,
    printf("Not registered:\n");
    for (int name = 0; name < (int)attendeeCount; name++)
       // check if attendee name registered, if not found (NULL), display name
-      if (bsearch(&attendees[name], registrants, registrantCount, sizeof(registrants[0]), Compare) == NULL)
+      if (bsearch(&attendees[name],
+         registrants, registrantCount,
+         sizeof(registrants[0]), Compare) == NULL)
          printf("%s\n", attendees[name]);
 }

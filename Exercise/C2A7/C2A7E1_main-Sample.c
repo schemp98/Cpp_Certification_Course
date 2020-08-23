@@ -4,12 +4,12 @@
 
       PLEASE DO NOT SUBMIT THIS ORIGINAL FILE TO THE "AUTOMATED ASSIGNMENT
       CHECKER" OR TO THE INSTRUCTOR.
-      
+
       Unlike all the other programming exercises, you will need to understand
       the code in this file so you can copy it into your own file, modify it,
       test it, and submit it.  Please see the complete exercise requirements
       in the assignment 7 requirements document.
-   
+
    Thank you!
 
  **************************************************************************/
@@ -121,8 +121,8 @@ void FreeTree(NODE *pNode)
    {
       FreeTree(pNode->left);                          // traverse left
       FreeTree(pNode->right);                         // traverse right
-      free(pNode->strng);                             // free the string 
-      free(pNode);                                    // free the node 
+      free(pNode->strng);                             // free the string
+      free(pNode);                                    // free the node
    }
 }
 
@@ -299,7 +299,7 @@ int main(int argc, char *argv[])
    {
       fprintf(stderr, "No bin count specified on command line\n");
       return EXIT_FAILURE;
-   }      
+   }
    hashTable = CreateTable((size_t)howManyBins);   // allocate table array
 
    //
