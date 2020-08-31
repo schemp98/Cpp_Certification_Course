@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C2A8\C2A8E2_DisplayModifiedSingleReals.c" />
     <ClCompile Include="C2A8\C2A8E2_main-Driver.c" />
     <ClCompile Include="C2A8\C2A8E2_OpenFileBinary.c" />
   </ItemGroup>
