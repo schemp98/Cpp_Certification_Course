@@ -19,39 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CA3\pr2\AngularSensor.cpp" />
-    <ClCompile Include="CA3\pr2\ConstantSignal.cpp" />
-    <ClCompile Include="CA3\pr2\DataRecorder.cpp" />
-    <ClCompile Include="CA3\pr2\main.cpp" />
-    <ClCompile Include="CA3\pr2\MonitoringSystem.cpp" />
-    <ClCompile Include="CA3\pr2\PeriodicSignal.cpp" />
-    <ClCompile Include="CA3\pr2\PressureSensor.cpp" />
-    <ClCompile Include="CA3\pr2\SawtoothSignal.cpp" />
-    <ClCompile Include="CA3\pr2\Sensor.cpp" />
-    <ClCompile Include="CA3\pr2\Signal.cpp" />
-    <ClCompile Include="CA3\pr2\SineSignal.cpp" />
-    <ClCompile Include="CA3\pr2\TemperatureSensor.cpp" />
-    <ClCompile Include="CA3\pr2\TestFramework.cpp" />
-    <ClCompile Include="CA3\pr2\Time.cpp" />
-    <ClCompile Include="CA3\pr2\UnitTest.cpp" />
-    <ClCompile Include="CA3\pr2\VibrationSensor.cpp" />
+    <ClCompile Include="CA3\hw7.cpp" />
+    <ClCompile Include="CA3\StringUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CA3\pr2\AngularSensor.h" />
-    <ClInclude Include="CA3\pr2\ConstantSignal.h" />
-    <ClInclude Include="CA3\pr2\DataRecorder.h" />
-    <ClInclude Include="CA3\pr2\MonitoringSystem.h" />
-    <ClInclude Include="CA3\pr2\PeriodicSignal.h" />
-    <ClInclude Include="CA3\pr2\PressureSensor.h" />
-    <ClInclude Include="CA3\pr2\SawtoothSignal.h" />
-    <ClInclude Include="CA3\pr2\Sensor.h" />
-    <ClInclude Include="CA3\pr2\Signal.h" />
-    <ClInclude Include="CA3\pr2\SineSignal.h" />
-    <ClInclude Include="CA3\pr2\TemperatureSensor.h" />
-    <ClInclude Include="CA3\pr2\TestFramework.h" />
-    <ClInclude Include="CA3\pr2\Time.h" />
-    <ClInclude Include="CA3\pr2\UnitTest.h" />
-    <ClInclude Include="CA3\pr2\VibrationSensor.h" />
+    <ClInclude Include="CA3\StringUtility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
