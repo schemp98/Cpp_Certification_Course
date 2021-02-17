@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CA3\hw8.cpp" />
-    <ClCompile Include="CA3\Person.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CA3\Person.h" />
+    <ClCompile Include="CA4\hw5.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

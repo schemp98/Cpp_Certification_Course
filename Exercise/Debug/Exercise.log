@@ -1,4 +1,116 @@
-﻿  Person.cpp
-  hw8.cpp
-  Generating Code...
+﻿  hw5.cpp
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(48,1): warning C5043: 'auto_ptr<X>::auto_ptr': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(22): message : see declaration of 'auto_ptr<X>::auto_ptr'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(53,1): warning C5043: 'auto_ptr<X>::auto_ptr': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(23): message : see declaration of 'auto_ptr<X>::auto_ptr'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(59,1): warning C5043: 'auto_ptr<X>::auto_ptr': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(24): message : see declaration of 'auto_ptr<X>::auto_ptr'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(70,1): warning C5043: 'auto_ptr<X>::operator =': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(32): message : see declaration of 'auto_ptr<X>::operator ='
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(79,1): warning C5043: 'auto_ptr<X>::operator =': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(33): message : see declaration of 'auto_ptr<X>::operator ='
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(89,1): warning C5043: 'auto_ptr<X>::operator *': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(29): message : see declaration of 'auto_ptr<X>::operator *'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(96,1): warning C5043: 'auto_ptr<X>::operator ->': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(30): message : see declaration of 'auto_ptr<X>::operator ->'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(103,1): warning C5043: 'auto_ptr<X>::get': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(28): message : see declaration of 'auto_ptr<X>::get'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(109,1): warning C5043: 'auto_ptr<X>::release': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(35): message : see declaration of 'auto_ptr<X>::release'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(119,1): warning C5043: 'auto_ptr<X>::reset': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(36): message : see declaration of 'auto_ptr<X>::reset'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(53,1): warning C5043: 'auto_ptr<int>::auto_ptr': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(23): message : see declaration of 'auto_ptr<int>::auto_ptr'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(53): message : while compiling class template member function 'auto_ptr<int>::auto_ptr(auto_ptr<int> &) throw()'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(147): message : see reference to function template instantiation 'auto_ptr<int>::auto_ptr(auto_ptr<int> &) throw()' being compiled
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(132): message : see reference to class template instantiation 'auto_ptr<int>' being compiled
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(48,1): warning C5043: 'auto_ptr<int>::auto_ptr': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(22): message : see declaration of 'auto_ptr<int>::auto_ptr'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(48): message : while compiling class template member function 'auto_ptr<int>::auto_ptr(X *) throw()'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(132): message : see reference to function template instantiation 'auto_ptr<int>::auto_ptr(X *) throw()' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(103,1): warning C5043: 'auto_ptr<int>::get': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(28): message : see declaration of 'auto_ptr<int>::get'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(103): message : while compiling class template member function 'X *auto_ptr<X>::get(void) throw() const'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(149): message : see reference to function template instantiation 'X *auto_ptr<X>::get(void) throw() const' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(89,1): warning C5043: 'auto_ptr<int>::operator *': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(29): message : see declaration of 'auto_ptr<int>::operator *'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(89): message : while compiling class template member function 'X &auto_ptr<X>::operator *(void) throw() const'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(149): message : see reference to function template instantiation 'X &auto_ptr<X>::operator *(void) throw() const' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(96,1): warning C5043: 'auto_ptr<int>::operator ->': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(30): message : see declaration of 'auto_ptr<int>::operator ->'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(96): message : while compiling class template member function 'X *auto_ptr<X>::operator ->(void) throw() const'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(243): message : see reference to function template instantiation 'X *auto_ptr<X>::operator ->(void) throw() const' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(70,1): warning C5043: 'auto_ptr<int>::operator =': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(32): message : see declaration of 'auto_ptr<int>::operator ='
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(70): message : while compiling class template member function 'auto_ptr<int> &auto_ptr<int>::operator =(auto_ptr<int> &) throw()'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(308): message : see reference to function template instantiation 'auto_ptr<int> &auto_ptr<int>::operator =(auto_ptr<int> &) throw()' being compiled
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(109,1): warning C5043: 'auto_ptr<int>::release': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(35): message : see declaration of 'auto_ptr<int>::release'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(109): message : while compiling class template member function 'X *auto_ptr<X>::release(void) throw()'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(328): message : see reference to function template instantiation 'X *auto_ptr<X>::release(void) throw()' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(119,1): warning C5043: 'auto_ptr<int>::reset': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(36): message : see declaration of 'auto_ptr<int>::reset'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(119): message : while compiling class template member function 'void auto_ptr<int>::reset(X *) throw()'
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(350): message : see reference to function template instantiation 'void auto_ptr<int>::reset(X *) throw()' being compiled
+          with
+          [
+              X=int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(89,1): warning C5043: 'auto_ptr<const int>::operator *': exception specification does not match previous declaration
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(29): message : see declaration of 'auto_ptr<const int>::operator *'
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(89): message : while compiling class template member function 'X &auto_ptr<X>::operator *(void) throw() const'
+          with
+          [
+              X=const int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(169): message : see reference to function template instantiation 'X &auto_ptr<X>::operator *(void) throw() const' being compiled
+          with
+          [
+              X=const int
+          ]
+C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Exercise\CA4\hw5.cpp(167): message : see reference to class template instantiation 'auto_ptr<const int>' being compiled
   Exercise.vcxproj -> C:\Users\schem\source\repos\schemp98\Cpp_Certification_Course\Debug\Exercise.exe
